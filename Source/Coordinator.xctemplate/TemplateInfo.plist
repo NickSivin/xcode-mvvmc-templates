@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Coordinator.</string>
+	<key>Summary</key>
+	<string>Coordinator.</string>
+	<key>SortOrder</key>
+	<string>-1</string>
+	<key>DefaultCompletionName</key>
+	<string>ModuleName</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Description</key>
+			<string>The name of the module for which the files are created</string>
+			<key>Identifier</key>
+			<string>moduleName</string>
+			<key>Name</key>
+			<string>The name of module:</string>
+			<key>EmptyReplacement</key>
+			<string>Any</string>
+			<key>Placeholder</key>
+			<string>ModuleName</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_moduleName___Coordinator</string>
+			<key>Description</key>
+			<string>The Coordinator name</string>
+			<key>Identifier</key>
+			<string>coordinatorName</string>
+			<key>Name</key>
+			<string>Coordinator Name:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
